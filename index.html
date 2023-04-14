@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header-section"> 
+<div class="header-content">
+    <h1 class="logo">Image hub</h1>
+    <p class="subline">High quality images</p> 
+    <form action="search.html" class="search-container"> 
+        <input type="text" autocomplete="off" name="search" class="search-box"
+        placeholder="search image">
+        <button class="search-btn" type="submit">search</button>
+    </form>
+ </div> 
+  
+ </header> 
+
+    <div class="image-popup hide">
+        <button class="close-btn"><img src="./close.png" height="15px"></button>
+    <a href="#" class="download-btn">download image</a>
+    <img src="" class="large-img" alt="">
+    <button class="controls pre-btn"><img src="./prev.png" height="40px"  alt=""></button>
+    <button class="controls next-btn"><img src="./next.png" height="40px" alt=""></button>
+    </div>
+
+    <section class="gallery">
+        <!-- <img class="gallery-img" src="./_Cream Brown Simple Minimalist Elegant Line Dots Desktop Wallpaper.png"> -->
+       
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
